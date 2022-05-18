@@ -2,14 +2,17 @@ pipeline {
 	agent any 
 	stages { 
 		stage('Build') {
-			 steps { echo 'Build is in progress....'
+			steps { echo 'Build is in progress....'
             }
         }
-        stage('Test'){ 
+		stage('Test'){ 
 			steps { echo 'Test is in progress...'
-            }		sh 'python TimeLog_file.py'
+				script {
+					sh 'python TimeLog_file.py'
+				}	
+		}
         }
-        stage('Deploy'){
+		stage('Deploy'){
 			 steps { echo 'Deploy is in proress..'
             }
         }    
