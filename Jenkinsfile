@@ -8,7 +8,7 @@ pipeline {
 		stage('Test'){ 
 			steps { echo 'Test is in progress...'
 				script {
-					sh 'python TimeLog_file.py'
+					#sh 'python TimeLog_file.py'
 				}	
 		}
         }
