@@ -7,4 +7,4 @@ date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
 #print("date and time:",date_time)
 file.write(date_time+'\n')
 # to close file
-file.close() 
+file.close()
