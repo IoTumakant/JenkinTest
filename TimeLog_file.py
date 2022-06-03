@@ -1,5 +1,5 @@
 #This is a program to log time in a output.txt file
-import os
+#import os
 from datetime import datetime
 file =open("output.txt",'a') #to open output.txt in append mode
 now = datetime.now()
