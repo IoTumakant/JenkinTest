@@ -1,0 +1,2 @@
+# jenkintest
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2ed0739cef994964b8f71bd989aa4be2)](https://app.codacy.com/gh/IoTumakant/jenkintest?utm_source=github.com&utm_medium=referral&utm_content=IoTumakant/jenkintest&utm_campaign=Badge_Grade_Settings)
