@@ -1,6 +1,6 @@
 #this is module for Geometry
 import os
-clear=lambda:os.system('cls')
+clear=lambda:os.system('clear')
 
 import math
 
@@ -33,19 +33,19 @@ def operation_Geo():
         clear()
         if choice_Geo in ('q','Q'):
             break
-        elif choice_Geo=="C":
+        elif choice_Geo in ('c','C'):
             radius=float(input("Enter radius of circle:"))
             print("Area:",area_circle(radius))
-        elif choice_Geo=="T":
+        elif choice_Geo in ('t','T'):
             side_1=float(input("Enter side_1:"))
             side_2=float(input("Enter side_2:"))
             side_3=float(input("Enter side_2:"))
             print("Area:",area_triangle(side_1,side_2,side_3))
-        elif choice_Geo=="R":
+        elif choice_Geo in ('r','R'):
             Length=float(input("Enter Length:"))
             Width=float(input("Enter Width:"))
             print("Area:",area_rectangle(Length,Width))
-        elif choice_Geo=="S":
+        elif choice_Geo in ('s','S'):
             side=float(input("Enter Side:"))
             print("Area:",area_square(side))
         else:
