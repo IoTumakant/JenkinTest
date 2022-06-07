@@ -1,0 +1,1 @@
+#SonarQube integreted on GitHub

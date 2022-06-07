@@ -1,5 +1,14 @@
 import os
-clear=lambda:os.system('clear')
+import sys
+if sys.platform.startswith("linux"):  # could be "linux", "linux2", "linux3", ...
+   #linux code
+   clear=lambda:os.system('clear')
+elif sys.platform == "darwin":
+   #Mac code
+   clear=lambda:os.system('clear')
+elif sys.platform == "win32":
+   #windows code
+   clear=lambda:os.system('cls')
 #Function for front page
 def Menu_frontPage():
     print("________________________________________________")
