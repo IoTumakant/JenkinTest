@@ -2,5 +2,5 @@ projectKey=IoTumakant_jenkintest_AYFBZ86GrroUbycGyupR
 serverUrl=http://3.109.121.250:9000
 serverVersion=9.4.0.54424
 dashboardUrl=http://3.109.121.250:9000/dashboard?id=IoTumakant_jenkintest_AYFBZ86GrroUbycGyupR
-ceTaskId=AYFBtTsCrroUbycGyupm
-ceTaskUrl=http://3.109.121.250:9000/api/ce/task?id=AYFBtTsCrroUbycGyupm
+ceTaskId=AYFBvch6rroUbycGyupn
+ceTaskUrl=http://3.109.121.250:9000/api/ce/task?id=AYFBvch6rroUbycGyupn
