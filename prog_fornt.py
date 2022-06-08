@@ -10,7 +10,7 @@ elif sys.platform == "win32":
    #windows code
    clear=lambda:os.system('cls')
 #Function for front page
-def Menu_frontPage():
+def menu_frontPage():
     print("________________________________________________")
     print("M: Mathamatics\nG: Geometry\nS: String\nQ: Quit")
     print("________________________________________________")
@@ -22,7 +22,7 @@ clear()
 print("This is front page")
 
 while True: #"quit","QUIT","Exit","exit"):
-    Menu_frontPage()
+    menu_frontPage()
     choise_frontPage=input("Enter your choice:")
     clear()
     if choise_frontPage in ('q','Q'):
