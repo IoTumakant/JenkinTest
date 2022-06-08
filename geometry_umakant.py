@@ -1,15 +1,15 @@
 #this is module for Geometry
 import os
 clear=lambda:os.system('clear')
-
+RESULT_TEXT="Area:"
 import math
 
 PI=3.14
 # function: area_triange(Sides: a,b,c retn Area)
 def area_triangle(side_1,side_2,side_3):
     sumside=side_1+side_2+side_3
-    Areatriangle=math.sqrt(sumside*(sumside-side_1)*(sumside-side_2)*(sumside-side_3))
-    return Areatriangle
+    areatriangle=math.sqrt(sumside*(sumside-side_1)*(sumside-side_2)*(sumside-side_3))
+    return areatriangle
 #function: area_square(Side: a; retn Area)
 def area_square(side):
     return side**2
@@ -35,19 +35,19 @@ def operation_geo():
             break
         elif choice_geo in ('c','C'):
             radius=float(input("Enter radius of circle:"))
-            print("Area:",area_circle(radius))
+            print(RESULT_TEXT,area_circle(radius))
         elif choice_geo in ('t','T'):
             side_1=float(input("Enter side_1:"))
             side_2=float(input("Enter side_2:"))
             side_3=float(input("Enter side_2:"))
             print("Area:",area_triangle(side_1,side_2,side_3))
-        elif choice_Geo in ('r','R'):
-            Length=float(input("Enter Length:"))
-            Width=float(input("Enter Width:"))
-            print("Area:",area_rectangle(Length,Width))
+        elif choice_geo in ('r','R'):
+            length=float(input("Enter Length:"))
+            width=float(input("Enter Width:"))
+            print(RESULT_TEXT,area_rectangle(length,width))
         elif choice_geo in ('s','S'):
             side=float(input("Enter Side:"))
-            print("Area:",area_square(side))
+            print(RESULT_TEXT,area_square(side))
         else:
             print("Wrong choice!")
 

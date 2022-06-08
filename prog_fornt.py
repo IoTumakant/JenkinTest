@@ -22,8 +22,8 @@ clear()
 print("This is front page")
 
 while True: #"quit","QUIT","Exit","exit"):
-    menu_frontPage()
-    choise_frontPage=input("Enter your choice:")
+    menu_frontpage()
+    choise_frontpage=input("Enter your choice:")
     clear()
     if choise_frontpage in ('q','Q'):
         print("Thanks!!!\n")
