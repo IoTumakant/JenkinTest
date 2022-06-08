@@ -1,4 +1,4 @@
 #add file to be ignored
-.xml
+#.xml
 .coverage
 __pycache__
